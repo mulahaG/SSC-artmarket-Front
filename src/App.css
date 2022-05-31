@@ -3,17 +3,34 @@
 }
 
 .App-logo {
+<<<<<<< HEAD
   pointer-events: none;
   display: flex;
   left: 80px;
   height: 80px;
+=======
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    height: 80px;
+    width: 80px;
+  }
+>>>>>>> bab6bbf4c3b75a5c7390a30d402f6e9f76ebad60
 }
 
 .App-header {
   background-color: #403D3D;
   min-height: 8vh;
   display: flex;
+<<<<<<< HEAD
   
+=======
+
+
+>>>>>>> bab6bbf4c3b75a5c7390a30d402f6e9f76ebad60
 }
 
 .App-badte {
@@ -29,6 +46,7 @@
   color: #61dafb;
 }
 
+<<<<<<< HEAD
 /* 검색 */
 .App-Search{
   position: fixed;
@@ -181,6 +199,8 @@
   top:50px;
 }
 
+=======
+>>>>>>> bab6bbf4c3b75a5c7390a30d402f6e9f76ebad60
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
