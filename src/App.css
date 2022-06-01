@@ -3,6 +3,10 @@
 }
 
 .App-logo {
+  pointer-events: none;
+  display: flex;
+  left: 80px;
+  height: 80px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -18,8 +22,6 @@
   background-color: #403D3D;
   min-height: 8vh;
   display: flex;
-
-
 }
 
 .App-badte {
@@ -33,6 +35,158 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* 검색 */
+.App-Search{
+  position: fixed;
+  top:10px;
+  padding: 13px 15px;
+  margin: 1px;
+  left: 150px;
+  width: 600px;
+  height: 50px;
+  border-width: 1px;
+  border-style:solid;
+}
+
+.Search-logo{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  left: 800px;
+  top: 10px;
+}
+
+.search_button{
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color:#ffffff;
+  position: fixed;
+  left: 800px;
+  top: 10px;
+}
+.search_Text{
+  background-color:transparent;
+  color: #fff;
+  border: 0;
+  margin: auto;
+  position:fixed;
+  left: 805px;
+  top:50px;
+}
+
+/* 관심등록 */
+.like-logo{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  left: 880px;
+  top: 10px;
+}
+
+.like_button{
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color:#ffffff;
+  position: fixed;
+  left: 880px;
+  top: 10px;
+}
+.like_Text{
+  background-color:transparent;
+  color: #fff;
+  border: 0;
+  margin: auto;
+  position:fixed;
+  left: 870px;
+  top:50px;
+}
+
+/* 로그인 */
+.login-logo{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  left: 950px;
+  top: 10px;
+}
+
+.login_button{
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color:#ffffff;
+  position: fixed;
+  left: 950px;
+  top: 10px;
+}
+.login_Text{
+  background-color:transparent;
+  color: #fff;
+  border: 0;
+  margin: auto;
+  position:fixed;
+  left: 950px;
+  top:50px;
+}
+
+/* 장바구니 */
+.cart-logo{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  left: 1020px;
+  top: 10px;
+}
+
+.cart_button{
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color:#ffffff;
+  position: fixed;
+  left: 1020px;
+  top: 10px;
+}
+.cart_Text{
+  background-color:transparent;
+  color: #fff;
+  border: 0;
+  margin: auto;
+  position:fixed;
+  left: 1015px;
+  top:50px;
+}
+
+/* 고객센터 */
+.customer-logo{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  left: 1090px;
+  top: 10px;
+}
+
+.customer_button{
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background-color:#ffffff;
+  position: fixed;
+  left: 1090px;
+  top: 10px;
+}
+.customer_Text{
+  background-color:transparent;
+  color: #fff;
+  border: 0;
+  margin: auto;
+  position:fixed;
+  left: 1085px;
+  top:50px;
 }
 
 @keyframes App-logo-spin {
