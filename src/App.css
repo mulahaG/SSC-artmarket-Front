@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -20,7 +22,7 @@
 
 .App-header {
   background-color: #403D3D;
-  min-height: 8vh;
+  min-height: 12vh;
   display: flex;
 }
 

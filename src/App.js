@@ -1,16 +1,13 @@
-<<<<<<< HEAD
 import React from "react";
-=======
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <form>
-          <input type="search" className="App-Search"/>
+          <input type="search" className="App-Search" />
           <button className="search_button">
             <img src="search.png" className="Search-logo" alt="Search" />
             <span className="search_Text">검색</span>
@@ -32,14 +29,10 @@ function App() {
             <span className="customer_Text">고객센터</span>
           </button>
         </form>
-
       </header>
-      <bady className="App-bady">
-        
-      </bady>
+      <bady className="App-bady"></bady>
     </div>
   );
 }
 
 export default App;
->>>>>>> 2d48a0cf74aea4a55677637cf18c7cb9ee7d2027
