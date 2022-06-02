@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 import React from "react";
-=======
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <form>
           <input type="search" className="App-Search"/>
           <button className="search_button">
@@ -36,10 +36,23 @@ function App() {
       </header>
       <bady className="App-bady">
         
-      </bady>
+        <div class="art_box2">
+         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+        </div>
+        
+        <div class="art_box2">
+          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
+        </div>
+
+        
+    </bady>
     </div>
   );
 }
 
 export default App;
->>>>>>> 2d48a0cf74aea4a55677637cf18c7cb9ee7d2027
+
