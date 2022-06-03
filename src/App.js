@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 import React from "react";
 import "./App.css";
-=======
-
 import React from "react";
-
-import logo from './logo.svg';
-import './App.css';
->>>>>>> 22ac4526e57b3807687e9ff6b402fc40ae5743d1
+import "./App.css";
 
 function App() {
   return (
@@ -38,32 +32,8 @@ function App() {
           </button>
         </form>
       </header>
-<<<<<<< HEAD
-      <bady className="App-bady"></bady>
-=======
-      <bady className="App-bady">
-        
-        <div class="art_box2">
-         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-         <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-        </div>
-        
-        <div class="art_box2">
-          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-          <div class="art_box"><img class="heart_box" src="https://img.icons8.com/material-outlined/48/fa314a/like--v1.png"/> <img class="book_box" src="https://img.icons8.com/material-outlined/48/000000/shopping-basket-2.png"/></div>
-        </div>
-
-        
-    </bady>
->>>>>>> 22ac4526e57b3807687e9ff6b402fc40ae5743d1
     </div>
   );
 }
 
 export default App;
-<<<<<<< HEAD
-=======
-
->>>>>>> 22ac4526e57b3807687e9ff6b402fc40ae5743d1
