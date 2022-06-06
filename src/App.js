@@ -3,6 +3,16 @@ import "./App.css";
 import React from "react";
 import "./App.css";
 
+const Wrapper = styled.div`
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 50px 0px;
+`;
+
 function App() {
   return (
     <div className="App">
@@ -32,6 +42,10 @@ function App() {
           </button>
         </form>
       </header>
+
+      <div className="main">
+        <Wrapper></Wrapper>
+      </div>
     </div>
   );
 }
