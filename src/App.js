@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -9,6 +10,17 @@ const Wrapper = styled.div`
   justify-content: center;
 
   margin: 50px 0px;
+`;
+
+const Box = styled.div`
+  width: 1000px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: aqua;
 `;
 
 function App() {
@@ -42,7 +54,9 @@ function App() {
       </header>
 
       <div className="main">
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <Box></Box>
+        </Wrapper>
       </div>
     </div>
   );
