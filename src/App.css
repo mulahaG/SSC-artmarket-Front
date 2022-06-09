@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  overflow-y: scroll;
-  
+  overflow: auto;
+  position: relative;
 }
 
 .App-logo {
@@ -22,8 +22,11 @@
 
 .App-header {
   background-color: #403D3D;
-  min-height: 12vh;
+  height: 12vh;
   display: flex;
+
+  
+  
 }
 
 .App-badte {
