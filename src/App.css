@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow-y: scroll;
   
 }
 
@@ -57,6 +58,8 @@
   position: fixed;
   left: 800px;
   top: 10px;
+
+  cursor: pointer;
 }
 
 .search_button{
@@ -68,6 +71,8 @@
   left: 800px;
   top: 10px;
 }
+
+
 .search_Text{
   background-color:transparent;
   color: #fff;
@@ -85,6 +90,8 @@
   position: fixed;
   left: 880px;
   top: 10px;
+
+  cursor: pointer;
 }
 
 .like_button{
@@ -95,7 +102,10 @@
   position: fixed;
   left: 880px;
   top: 10px;
+
+  
 }
+
 .like_Text{
   background-color:transparent;
   color: #fff;
@@ -113,6 +123,8 @@
   position: fixed;
   left: 950px;
   top: 10px;
+
+  cursor: pointer;
 }
 
 .login_button{
@@ -151,7 +163,11 @@
   position: fixed;
   left: 1020px;
   top: 10px;
+
+  cursor: pointer;
 }
+
+
 .cart_Text{
   background-color:transparent;
   color: #fff;
@@ -169,6 +185,8 @@
   position: fixed;
   left: 1090px;
   top: 10px;
+
+  cursor: pointer;
 }
 
 .customer_button{

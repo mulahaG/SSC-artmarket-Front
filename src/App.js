@@ -55,7 +55,7 @@ function App() {
 
       <div className="main">
         <Wrapper>
-          <Box></Box>
+          <Box />
         </Wrapper>
       </div>
     </div>
