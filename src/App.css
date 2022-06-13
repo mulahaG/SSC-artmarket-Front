@@ -4,15 +4,6 @@
   position: relative;
 }
 
-.App-logo {
-  pointer-events: none;
-  display: flex;
-  left: 80px;
-  height: 80px;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     height: 80px;
@@ -20,13 +11,26 @@
   }
 }
 
+.logo_container {
+  display: flex;
+}
+.logo_1 {
+  color: #724ef5;
+}
+.logo_2 {
+  color: #4ea4f5;
+}
+.logo_3 {
+  color: #4ea4f5;
+}
+.logo_4 {
+  color: #1dfaef;
+}
+
 .App-header {
   background-color: #403D3D;
   height: 12vh;
   display: flex;
-
-  
-  
 }
 
 .App-badte {
