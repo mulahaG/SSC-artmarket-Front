@@ -24,17 +24,6 @@ const Box = styled.div`
   background-color: aqua;
 `;
 
-const Sm_Box = styled.div`
-  width: 1000px;
-  height: 350px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  background-color: blue;
-`;
-
 function App() {
   return (
     <div className="App">
@@ -74,8 +63,6 @@ function App() {
         <Wrapper>
           <Box />
         </Wrapper>
-
-        <Sm_Box />
       </div>
     </div>
   );
