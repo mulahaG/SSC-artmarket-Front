@@ -24,6 +24,13 @@ const Box = styled.div`
   background-color: aqua;
 `;
 
+const Btn = styled.div`
+  width: 50px;
+  height: 60px;
+
+  background-color: burlywood;
+`;
+
 function App() {
   return (
     <div className="App">
@@ -61,6 +68,7 @@ function App() {
 
       <div className="main">
         <Wrapper>
+          <Btn />
           <Box />
         </Wrapper>
       </div>
