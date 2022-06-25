@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
 import styled from "styled-components";
+import Slider from "react-slick";
 
 const Wrapper = styled.div`
   width: 100%;
